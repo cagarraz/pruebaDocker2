@@ -5,7 +5,7 @@ app = Flask(__name__)
 def hello():
     print('se conectaron\n')
     f = open("log/log.log", "a")
-    f.write("se conectaron")
+    f.write("se conectaron\n")
     f.close()
     return "conexionholi!"
 
